@@ -76,16 +76,19 @@ go run cmd/formatter.go en <filename_or_directory> [config.json]
     "ignore_files": ["*_test.go"]
 }
 ```
-### Пример неорганизованного и неправильного кода (До)
+### Example of disorganized and incorrect code (Before)
 
 package main
+```go
 import "fmt"
 func main(){x:=3.14; y:=x*x; if y>10{fmt.Println("x is large")}else{fmt.Println("x is small")}}
+```
+
 ### ProblLack of Indentationack of Indentation**: The code is hard to read due to the absence of spaces Package Importing*Package Importing**: Packages are imported in one line, which does not conforInefficient Formattingficient Formatting**: All code elements are placed in one line, making it difficulNo Empty Lines Between Logical Blockseen Logical Blocks**: There is no separation between different sections of the code.
 
 ### Code after using the Formatter (After)
 
-package main
+```go package main
 
 import "fmt"
 
@@ -99,6 +102,8 @@ func main() {
         fmt.Println("x is small")
     }
 }
+```
+
 ### Changes aImproved Formattingmproved Formatting**: The code is now well-formatted, making it more readable. Indentation and spaces are uCorrect Package Importing Package Importing**: Packages are imported in a single block, which is standardLogical Structure*Logical Structure**: The code is broken down into logical blocks, making it easieEmpty Lines.
 4. **Empty Lines**: Empty lines have been added between logical parts of the code, enhancing readability.
 
