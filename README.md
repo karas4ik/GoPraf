@@ -43,8 +43,9 @@ go run cmd/formatter.go <filename_or_directory> [config.json]
 
 To edit the configuration file, use the command:
 
-bash
+```bash
 go run cmd/formatter.go edit config.json
+```
 
 This will open an interface for changing ignored directories and files.
 
