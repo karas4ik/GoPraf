@@ -76,10 +76,6 @@ go run cmd/formatter.go en <filename_or_directory> [config.json]
     "ignore_files": ["*_test.go"]
 }
 ```
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 ### Пример неорганизованного и неправильного кода (До)
 
 package main
