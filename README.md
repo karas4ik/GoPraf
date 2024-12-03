@@ -78,8 +78,8 @@ go run cmd/formatter.go en <filename_or_directory> [config.json]
 ```
 ### Example of disorganized and incorrect code (Before)
 
-package main
 ```go
+package main
 import "fmt"
 func main(){x:=3.14; y:=x*x; if y>10{fmt.Println("x is large")}else{fmt.Println("x is small")}}
 ```
@@ -88,7 +88,8 @@ func main(){x:=3.14; y:=x*x; if y>10{fmt.Println("x is large")}else{fmt.Println(
 
 ### Code after using the Formatter (After)
 
-```go package main
+```go
+package main
 
 import "fmt"
 
